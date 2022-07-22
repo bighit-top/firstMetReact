@@ -1,15 +1,51 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// JSX
+/* import Library from './jsx/Library';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Library />
+  </React.StrictMode>
+); */
+
+
+// rendering elemnets
+/* import Clock from './rendering_elements/Clock';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+setInterval(() => {
+  root.render(
+    <React.StrictMode>
+      <Clock />
+    </React.StrictMode>
+  );
+}, 1000); */
+
+
+//component props
+/* import CommentList from './component_props/CommentList';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <CommentList />
+  </React.StrictMode>
+); */
+
+
+//state lifecycle
+import NotificationList from './state_lifecycle/NotificationList';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <NotificationList />
   </React.StrictMode>
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
