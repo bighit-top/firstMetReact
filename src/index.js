@@ -16,12 +16,13 @@ import LandingPage from './conditional_rendering/LandingPage'
 import AttenanceBook from './list_key/AttendanceBook';
 import SignUp from './forms/SignUp';
 import Calculator from './lifting_state_up/Calculator';
+import ProfileCard from './composition_inheritance/ProfileCard';
 
 //lifting state up
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <SignUp />
   </React.StrictMode>
 );
 
