@@ -83,11 +83,20 @@ root.render(
 ); */
 
 //list key
-import AttenanceBook from './list_key/AttendanceBook';
+/* import AttenanceBook from './list_key/AttendanceBook';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <AttenanceBook />
+  </React.StrictMode>
+); */
+
+//forms
+import SignUp from './forms/SignUp';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <SignUp />
   </React.StrictMode>
 );
 
