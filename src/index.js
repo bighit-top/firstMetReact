@@ -4,7 +4,6 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
 import Library from './jsx/Library';
 import Clock from './rendering_elements/Clock';
 import CommentList from './component_props/CommentList';
@@ -17,12 +16,13 @@ import AttenanceBook from './list_key/AttendanceBook';
 import SignUp from './forms/SignUp';
 import Calculator from './lifting_state_up/Calculator';
 import ProfileCard from './composition_inheritance/ProfileCard';
+import DarkOrLight from './context/DarkOrLight';
 
-//lifting state up
+//context
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <DarkOrLight />
   </React.StrictMode>
 );
 
