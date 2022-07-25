@@ -17,12 +17,13 @@ import SignUp from './forms/SignUp';
 import Calculator from './lifting_state_up/Calculator';
 import ProfileCard from './composition_inheritance/ProfileCard';
 import DarkOrLight from './context/DarkOrLight';
+import Blocks from './styling/Blocks';
 
-//context
+//styling
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
 );
 
