@@ -38,14 +38,58 @@ root.render(
 
 
 //state lifecycle
-import NotificationList from './state_lifecycle/NotificationList';
+/* import NotificationList from './state_lifecycle/NotificationList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NotificationList />
   </React.StrictMode>
-);
+); */
 
+//hooks
+/* import Accommodate from './hooks/Accommodate';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Accommodate />
+  </React.StrictMode>
+); */
+
+//handling events - class component
+/* import ConfirmButton_class from './handling_events/ConfirmButton_class';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ConfirmButton_class />
+  </React.StrictMode>
+); */
+
+//handling events - function component
+/* import ConfirmButton_function from './handling_events/ConfirmButton_function';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ConfirmButton_function />
+  </React.StrictMode>
+); */
+
+//conditional rendering
+/* import LandingPage from './conditional_rendering/LandingPage'
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>
+); */
+
+//list key
+import AttenanceBook from './list_key/AttendanceBook';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AttenanceBook />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

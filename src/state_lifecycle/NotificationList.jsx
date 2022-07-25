@@ -27,7 +27,7 @@ class NotificationList extends React.Component {
         };
     }
 
-    //lifecycle  
+    //lifecycle 
     componentDidMount() {
         const { notifications } = this.state;
 
@@ -35,18 +35,17 @@ class NotificationList extends React.Component {
             if (notifications.length < reservedNotifications.length) {
                 const index = notifications.length;
                 notifications.push(reservedNotifications[index]);
-                console.log(notifications[index]);
+                
                 this.setState({ //state update
                     notifications: notifications,
                 });
             } else {
-                // this.setState({
-                //     notifications: [],
-                // });
+                this.setState({
+                    notifications: [],
+                });
                 clearInterval(timer);
             }
         }, 1000);
-
     }
 
     render() {
